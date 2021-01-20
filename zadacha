@@ -1,0 +1,10 @@
+import math
+
+second = int(input('Введите секунды'))
+minute = int(input('Введите минуты'))
+grad = int(input('Введите угол'))
+
+deg = (grad + (minute + second / 60)/60)
+
+rad = (deg * math.pi) / 180
+print(rad)
